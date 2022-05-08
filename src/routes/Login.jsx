@@ -29,13 +29,13 @@ const Login = () => {
                     type="email" 
                     placeholder="Ingresa tu email"
                     value={email}
-                    onChange={ e => setEmail(r.target.value)}
+                    onChange={ e => setEmail(e.target.value)}
                 ></input>
                 <input 
                     type="password" 
                     placeholder="Contraseña"
                     value={password}
-                    onChange={ e => setPassword(r.target.value)}
+                    onChange={ e => setPassword(e.target.value)}
                 ></input>
                 <button type="submit">Login</button>
             </form>
